@@ -4,7 +4,7 @@ class Man{
     constructor(x,y,w,h){
         this.body = Matter.Bodies.rectangle(x,y,w,h);
         World.add(world,this.body);
-        this.imageName = "images/Walking Frame/walking_";
+        this.imageName = "walking_";
         this.frame = 0;
         this.imgNo = 1;
         this.vals = {x:x,y:y,w:w,h:h};

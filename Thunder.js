@@ -1,7 +1,7 @@
 // JavaScript source code
 class Thunder{
     constructor(x,y,imgNo) {
-        this.image = loadImage("images/thunderbolt/" + imgNo + ".png");
+        this.image = loadImage(imgNo + ".png");
         this.vals = { x: x, y: y };
     }
 
